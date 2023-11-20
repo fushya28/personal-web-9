@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonial</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/testimonial.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar"> 
+    <div style="display: flex;margin-left: 50px; gap: 10px;">
+      <img src="dwlogotransparant.png" alt="" class="dw-logo">
+      <li style="display: flex;">
+        <ul style="margin: auto; font-weight: bold;"><a href="index.html" style="text-decoration: none; font-size: 18px; cursor: pointer; color: black; margin-right: 1px; padding-right: 0px;">
+          Home</a>
+        </ul>
+        <ul style="font-size: 18px; padding-left: 39px;">
+          <a href="myproject.html" style="font-weight:400; text-decoration: none; font-size: 18px; cursor: pointer; color: black; margin-right: 1px; padding-right: 0px;"> 
+            My project </a>
+          </ul>
+        <ul>
+          <a href="testimonial.html" style="font-weight: 400;  text-decoration: none; font-size: 18px; cursor: pointer; color: black; margin-right: 1px; padding-right: 0px;">
+            Testimonial</a>
+        </ul>
+      </li>
+    </div>
+    <div class="contactMe-link">
+      <a href="contact.html" style="
+        text-decoration: none; 
+        color: white;
+        font-size: 14px;
+        ">Contact Me</a>
+    </div>
+  </nav>
+
+  <div class="content-box">
+      <div>
+        <h2>My Testimonial</h2>
+      </div>
+
+      <h3>Rating By Star</h3>
+      <div class="rating-cont">
+        <div><button style="font-weight: bold;" class="rating-all" onclick="allTestimonial()">ALL</button></div>
+        <div><button class="rating-button" onclick="filterRating(1)"><i class="fa-solid fa-star">1</i></button></div>
+        <div><button class="rating-button" onclick="filterRating(2)"><i class="fa-solid fa-star">2</i></button></div>
+        <div><button class="rating-button" onclick="filterRating(3)"><i class="fa-solid fa-star">3</i></button></div>
+        <div><button class="rating-button" onclick="filterRating(4)"><i class="fa-solid fa-star">4</i></button></div>
+        <div><button class="rating-button" onclick="filterRating(5)"><i class="fa-solid fa-star">5</i></button></div>
+        
+      </div>
+
+      <section class="main-cont"></section>
+
+      <div class="container-testimonial">
+
+        <!-- <div class="testimonial-cont">
+          <img class="image" src="dwlogotransparant.png" alt="Image Description">
+          <p>Message goes here.</p>
+          <p>- Author Name</p>
+        </div>
+
+        <div class="testimonial-cont">
+          <img class="image" src="dwlogotransparant.png" alt="Image Description">
+          <p>Message goes here.</p>
+          <p>- Author Name</p>
+        </div>
+
+        <div class="testimonial-cont">
+          <img class="image" src="dwlogotransparant.png" alt="Image Description">
+          <p>Message goes here.</p>
+          <p>- Author Name</p>
+        </div> -->
+
+        <!-- <div class="testimonial-cont">
+          <img class="image" src="dwlogotransparant.png" alt="Image Description">
+          <p>Message goes here.</p>
+          <p>- Author Name</p>
+        </div> -->
+
+      </div>
+    </section>
+  </div>
+  <script src="js/testimonial.js"></script>
+  <script src="js/ajax.js"></script>
+
+</body>
+</html>

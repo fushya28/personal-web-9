@@ -1,0 +1,27 @@
+[
+  { 
+    "author": "Razan",
+    "message": "WOW CUPU BANGEET",
+    "image": "https://images.pexels.com/photos/7241294/pexels-photo-7241294.jpeg",
+    "rating": 1
+  },
+  {
+    "author": "Pat",
+    "message": "WOW GANTENG BANGEET",
+    "image": "https://images.pexels.com/photos/7047607/pexels-photo-7047607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "rating": 5
+  }, 
+  {
+    "author": "Nopal",
+    "message": "GGEZ",
+    "image": "https://images.pexels.com/photos/7862360/pexels-photo-7862360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "rating": 4
+  },
+  {
+    "author": "Dzikri",
+    "message": "EZZZZZZZZ",
+    "image": "https://images.pexels.com/photos/7330165/pexels-photo-7330165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "rating": 5
+  }
+
+]
